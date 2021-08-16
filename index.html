@@ -18,8 +18,15 @@
           <li><a href="services.html">SERVIÇOS</a></li>
           <li><a href="contact.html">CONTATO</a></li>
         </ul>
-        <span id="menu">☰</span>
-
+        <span id="menu" onclick="showMenuHamburguer()">☰</span>
+        <div class="menu-hamburguer">
+          <div id="close" onclick="hiddenMenuHamburguer()">&#10006;</div>
+          <ul>
+            <li><a href="about.html">SOBRE</a></li>
+            <li><a href="services.html">SERVIÇOS</a></li>
+            <li><a href="contact.html">CONTATO</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -36,6 +43,7 @@
         </div>
       </div>
     </main>
+    <script src="js/script.js"></script>
     <footer>
       <p>Copyright &copy; - Grow Up</p>
     </footer>
