@@ -78,6 +78,11 @@ header .links ul li a:hover {
   text-decoration: underline;
 }
 
+header #menu {
+  position: absolute;
+  display: none;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -352,4 +357,31 @@ section.contact .container .contact-us span:hover {
   }
 
 
+}
+
+@media only screen and (max-width: 425px) {
+  header .links ul {
+    position: absolute;
+    display: none;
+  }
+  header #menu {
+    position: relative;
+    display: block;
+    font-size: 1.9rem;
+    padding-bottom: 7px;
+    margin: 5px 10px;
+  }
+  
+  section.services {
+    padding: 10px 40px;
+  }
+
+
+  section.services .container img {
+    max-width: 80vw;
+  }
+
+  main.about-us .about-us-photo img {
+    max-width: 80vw;
+  }
 }
