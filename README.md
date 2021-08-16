@@ -35,6 +35,10 @@ Este é um projeto desenvolvido somente com HTML e CSS, feito no curso de Desenv
 
 * Esse projeto não necessita de nenhuma aplicação externa. :) 
 
+## 🔗 Visualização
+
+* Para visualizar o projeto na internet, basta [clicar aqui!](https://grow-up-project.vercel.app/)
+
 ## 🤝 Colaboradores
 
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
