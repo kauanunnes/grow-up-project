@@ -307,6 +307,7 @@ section.contact .container .contact-us span:hover {
     flex-direction: column-reverse;
     align-items: center;
     margin: 10px 0;
+    text-align: center;
   }
   main.about-us .txt-informations h3,
   p {
@@ -384,4 +385,6 @@ section.contact .container .contact-us span:hover {
   main.about-us .about-us-photo img {
     max-width: 80vw;
   }
+
+  
 }
