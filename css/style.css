@@ -361,6 +361,10 @@ section.contact .container .contact-us span:hover {
 }
 
 @media only screen and (max-width: 425px) {
+  header {
+    gap: 10px;
+  }
+
   header .links ul {
     position: absolute;
     display: none;
