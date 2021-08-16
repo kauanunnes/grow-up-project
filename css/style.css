@@ -373,6 +373,29 @@ section.contact .container .contact-us span:hover {
     margin: 5px 10px;
   }
   
+  main {
+    padding: 0 20px;
+  }
+
+  main .container {
+    padding: 5px;
+    margin: 20px 10px;
+  }
+
+  main .container img {
+    width: 100%;
+  }
+
+  main .container .main-txt h1 {
+    font-size: 1.6rem;
+  }
+
+
+  main .container .main-txt {
+    width: 100%;
+  }
+
+
   section.services {
     padding: 10px 40px;
   }
